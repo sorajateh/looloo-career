@@ -108,7 +108,7 @@ export default {
                     }
                 },
                 {
-                    title: 'Comprehsnive<br/>Paid Leave',
+                    title: 'Comprehensive<br/>Paid Leave',
                     desc: 'Spend your special days worry-free with your loved ones. We offer paid leaves for your birthday, honeymoon, graduation, and more!',
                     icon: {
                         viewBox: '0 0 68 60',
