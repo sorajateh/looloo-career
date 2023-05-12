@@ -52,7 +52,7 @@ export default {
       obj['name'] = element.name
       obj['jobs'] = []
       
-      const jobs = this.$axios.$get(`/wp-json/wp/v2/job?job_role=${element.id}`).then(elem => {
+      const jobs = this.$axios.$get(`/wp-json/wp/v2/job?job_role=${element.id}&per_page=100`).then(elem => {
         elem.forEach(e => {
           const jobObj = {}
           jobObj['id'] = e.id
