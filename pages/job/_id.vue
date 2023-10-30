@@ -22,7 +22,7 @@
                                     </template>
                                 </div>
                                 <div class="mt-3">
-                                    <ApplyButton full />
+                                    <ApplyButton full :href="post.acf.apply_form_url" />
                                 </div>
                             </div>
                             <div class="post-content" v-html="post.content.rendered"></div>
